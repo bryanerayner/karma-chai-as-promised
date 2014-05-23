@@ -1,0 +1,24 @@
+{
+  "name": "karma-chai-as-promised",
+  "description": "chai-as-promised for Karma",
+  "keywords": [
+    "karma",
+    "karma-plugin",
+    "chai",
+    "chai-as-promised"
+  ],
+  "version": "0.0.1",
+  "author": "Bryan Rayner <bryanerayner@gmail.com> (http://bryanerayner.com)",
+  "main": "./index.js",
+  "license": "MIT",
+  
+  
+  "peerDependencies": {
+    "karma": "~0.6 || ~0.8 || ~0.10 || ~0.12",
+    "chai": "*",
+    "chai-as-promised":"*"
+  },
+  "engines": {
+   "node": "~0.8 || ~0.10"
+  }
+}
